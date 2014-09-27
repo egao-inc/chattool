@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53D52EAD19D07F800012E732 /* c48.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53D52EAC19D07F800012E732 /* c48.jpg */; };
-		53D52EAF19D080100012E732 /* s139.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53D52EAE19D080100012E732 /* s139.jpg */; };
-		53D52EB119D082C30012E732 /* avatar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53D52EB019D082C30012E732 /* avatar2.jpg */; };
 		76687AFD1622039C00707588 /* UIBubbleTypingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76687AFC1622039C00707588 /* UIBubbleTypingTableViewCell.m */; };
 		76D097CC1621F0E000C17816 /* UIBubbleHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D097CB1621F0E000C17816 /* UIBubbleHeaderTableViewCell.m */; };
 		76ED206315BF096C00E186D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76ED206215BF096C00E186D3 /* UIKit.framework */; };
@@ -36,12 +33,10 @@
 		C83B108015DE43180067DADE /* typingSomeone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C83B107815DE43180067DADE /* typingSomeone@2x.png */; };
 		C86D4FFC15BFEBBF003F161E /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = C86D4FFB15BFEBBF003F161E /* icon_57.png */; };
 		C86D4FFE15BFEBC1003F161E /* icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = C86D4FFD15BFEBC1003F161E /* icon_114.png */; };
+		FEBAE3AA19D6DF370014F81D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEBAE3A919D6DF370014F81D /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		53D52EAC19D07F800012E732 /* c48.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = c48.jpg; path = "../../../../いろいろ/ピクチャ/ブログフォト/c48.jpg"; sourceTree = "<group>"; };
-		53D52EAE19D080100012E732 /* s139.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = s139.jpg; path = "../../../../いろいろ/ピクチャ/ブログフォト/s139.jpg"; sourceTree = "<group>"; };
-		53D52EB019D082C30012E732 /* avatar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = avatar2.jpg; path = "../../../../いろいろ/ピクチャ/etc/etc/avatar2.jpg"; sourceTree = "<group>"; };
 		76687AFB1622039C00707588 /* UIBubbleTypingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBubbleTypingTableViewCell.h; path = ../../src/UIBubbleTypingTableViewCell.h; sourceTree = "<group>"; };
 		76687AFC1622039C00707588 /* UIBubbleTypingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIBubbleTypingTableViewCell.m; path = ../../src/UIBubbleTypingTableViewCell.m; sourceTree = "<group>"; };
 		76D097CA1621F0E000C17816 /* UIBubbleHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBubbleHeaderTableViewCell.h; path = ../../src/UIBubbleHeaderTableViewCell.h; sourceTree = "<group>"; };
@@ -79,6 +74,7 @@
 		C83B107815DE43180067DADE /* typingSomeone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "typingSomeone@2x.png"; sourceTree = "<group>"; };
 		C86D4FFB15BFEBBF003F161E /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_57.png; path = ../icon_57.png; sourceTree = "<group>"; };
 		C86D4FFD15BFEBC1003F161E /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_114.png; path = ../icon_114.png; sourceTree = "<group>"; };
+		FEBAE3A919D6DF370014F81D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +94,7 @@
 		76ED205315BF096C00E186D3 = {
 			isa = PBXGroup;
 			children = (
+				FEBAE3A919D6DF370014F81D /* Default-568h@2x.png */,
 				76ED206815BF096C00E186D3 /* UIBubbleTableViewExample */,
 				76ED206115BF096C00E186D3 /* Frameworks */,
 				76ED205F15BF096C00E186D3 /* Products */,
@@ -141,9 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				C836D5CD1625D718004CB4A9 /* avatar1.png */,
-				53D52EB019D082C30012E732 /* avatar2.jpg */,
-				53D52EAC19D07F800012E732 /* c48.jpg */,
-				53D52EAE19D080100012E732 /* s139.jpg */,
 				C86D4FFD15BFEBC1003F161E /* icon_114.png */,
 				C86D4FFB15BFEBBF003F161E /* icon_57.png */,
 				76ED206A15BF096C00E186D3 /* UIBubbleTableViewExample-Info.plist */,
@@ -216,7 +210,7 @@
 		76ED205515BF096C00E186D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = 76ED205815BF096C00E186D3 /* Build configuration list for PBXProject "UIBubbleTableViewExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -245,13 +239,11 @@
 				C86D4FFC15BFEBBF003F161E /* icon_57.png in Resources */,
 				C86D4FFE15BFEBC1003F161E /* icon_114.png in Resources */,
 				C83B107915DE43180067DADE /* bubbleMine.png in Resources */,
-				53D52EAF19D080100012E732 /* s139.jpg in Resources */,
-				53D52EAD19D07F800012E732 /* c48.jpg in Resources */,
 				C83B107A15DE43180067DADE /* bubbleMine@2x.png in Resources */,
 				C83B107B15DE43180067DADE /* bubbleSomeone.png in Resources */,
 				C83B107C15DE43180067DADE /* bubbleSomeone@2x.png in Resources */,
 				C83B107D15DE43180067DADE /* typingMine.png in Resources */,
-				53D52EB119D082C30012E732 /* avatar2.jpg in Resources */,
+				FEBAE3AA19D6DF370014F81D /* Default-568h@2x.png in Resources */,
 				C83B107E15DE43180067DADE /* typingMine@2x.png in Resources */,
 				C83B107F15DE43180067DADE /* typingSomeone.png in Resources */,
 				C83B108015DE43180067DADE /* typingSomeone@2x.png in Resources */,
@@ -305,7 +297,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -317,10 +314,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -329,13 +330,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
